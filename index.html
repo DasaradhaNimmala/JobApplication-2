@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="app.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Job Application</h1>
+            <p>Please complete the form below to appluy for a position with us</p>
+        </div>
+        <form action="" class="form">
+            <div class="form-control">
+                <label for="fullname" class="label-head">Full Name</label>
+                <div class="row">
+                    <div class="item start">
+                        <input id="txtFname" type="text" for="name" />
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="item last">
+                        <input id="txtLname" type="text" for="lname" />
+                        <label for="lname">Last Name</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="fullname" class="label-head">Gender</label>
+                <div class="row">
+                    <div class="item start">
+                        <input name="gender" id="rdbtnMale" type="radio" for="male" />
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="item last">
+                        <input name="gender" id="rdbtnFmale" type="radio" for="fmale" />
+                        <label for="fmale">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="fullname" class="label-head">Qualification</label>
+                <div class="row">
+                    <div class="item start">
+                        <input name="qualfication" id="chkbxDegree" type="checkbox" for="degree" />
+                        <label for="degree">Degree</label>
+                    </div>
+                    <div class="item last">
+                        <input name="qualfication" id="chkbxGrad" type="checkbox" for="graduate" />
+                        <label for="graduate">Graduate</label>
+                    </div>
+                    <div class="item last">
+                        <input name="qualfication" id="chkbxPstGrad" type="checkbox" for="postgraduate" />
+                        <label for="postgraduate">Post Graduate</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="fullname" class="label-head">Technical Skills</label>
+                <div class="row">
+                    <div class="item start">
+                        <select name="month" id="dropmonth" class="form-dropdown">
+                            <option>C</option>
+                            <option>C++</option>
+                            <option>Html</option>
+                            <option>Css</option>
+                            <option>Php</option>
+                            <option>Node</option>
+                            <option>React</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="fullname" class="label-head">Marital Status</label>
+                <div class="row">
+                    <div class="item start">
+                        <select name="maritial" id="dropmairtial" class="form-dropdown">
+                            <option>Married</option>
+                            <option>UnMarried</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="phoneNum" class="label-head">Phone Number</label>
+                <div class="row">
+                    <div class="item start">
+                        <input id="phonenum" value="" type="number" for="phoneNum" />
+                        <label for="phoneNum">Phone Number</label>
+                    </div>                    
+                </div>
+            </div>           
+            <div class="form-control">
+                <label for="fullname" class="label-head">Email Address</label>
+                <div class="row">
+                    <div class="item">
+                        <input placeholder="ex: myname@example.com" id="txtsaddress1" type="text" for="saddress1" />
+                        <label for="saddress1">example@example.com</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="dob" class="label-head">DOB</label>
+                <div class="row">
+                    <div class="item start">
+                        <input id="phonenum" value="" type="date" for="dob" />
+                        <label for="dob">Phone Number</label>
+                    </div>                    
+                </div>
+            </div>            
+        </form>
+    </div>
+</body>
+
+</html>
